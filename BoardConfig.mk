@@ -148,6 +148,9 @@ BOARD_HAVE_SAMSUNG_WIFI := true
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/power_supply/battery/batt_lp_charging
 BOARD_BATTERY_DEVICE_NAME := battery
 
+# Hardware
+BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
+
 # RIL
 BOARD_VENDOR := samsung
 BOARD_PROVIDES_LIBRIL := true
